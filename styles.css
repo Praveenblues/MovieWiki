@@ -1,0 +1,41 @@
+body{
+background:orange;
+text-align:center;
+}
+
+.logo{
+width:50%;
+height:50px;
+text-align: center;
+font-size: 40px;
+color: yellow;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15%;
+background:blue;
+}	
+
+.searchbar input[type=text] {
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+height: 30px;
+font-size: 15px
+}
+
+.button{
+	width: 50px;
+	margin-top:5px;
+	margin-left: auto;
+	margin-right: auto;
+	background: yellow;
+	color:blue;
+	text-align: center;
+	cursor: pointer;
+}
+
+.button:hover{
+	background: blue;
+	color:yellow;
+	transition-duration: 100ms;
+}
